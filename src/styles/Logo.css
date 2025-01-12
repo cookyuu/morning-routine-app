@@ -1,0 +1,13 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container svg {
+  transition: transform 0.3s ease;
+}
+
+.logo-container:hover svg {
+  transform: scale(1.05);
+} 
